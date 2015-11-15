@@ -23,7 +23,7 @@ int query(int left,int right,int ql,int qr,int index)
 
 	if(left>qr || right<ql)
 	return INT_MAX;
-
+ 
 	if(lazy[index]!=0)
 	{
 
