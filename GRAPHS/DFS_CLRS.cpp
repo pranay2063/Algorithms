@@ -61,8 +61,8 @@ int main()
 		if(color[i] == WHITE)
 			DFS(i, color);
 
-    //for(i=1;i<=n;i++)
-       //cout<<i<<" "<<d[i]<<" "<<f[i]<<endl;
+    	//for(i=1;i<=n;i++)
+        //cout<<i<<" "<<d[i]<<" "<<f[i]<<endl;
 
 	return 0;
 
