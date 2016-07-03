@@ -15,7 +15,7 @@ const int MAX = 100001;
 vector<int> adj[MAX];
 
 // DFS - recursive and non-recursive
-// BFS - recursive
+// BFS - non-recursive
 // Topological Sort - DFS (recursive and non-recursive)
 
 void TopologicalSort(int u, int visited[], stack<int> &S)
