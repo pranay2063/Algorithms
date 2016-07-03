@@ -99,8 +99,8 @@ void SCC_find(int n)
 		if(!visited[S.top()])
 		{
 
-            ++cnt;
-            printf("SCC%d : ", cnt);
+        		++cnt;
+            		printf("SCC%d : ", cnt);
 			DFS(S.top(), adjR, visited, flag);
 			printf("\n");
 
