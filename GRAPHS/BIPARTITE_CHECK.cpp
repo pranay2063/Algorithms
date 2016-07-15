@@ -1,6 +1,7 @@
 
 // Code to check if a graph is bipartite
 // This code works only for those graphs which are strongly connected
+// m-coloring problem can be used here, where m = 2
 
 #include<queue>
 #include<vector> 
@@ -17,6 +18,7 @@ bool bipartite_check(int start, int visited[])
 
 	// BFS or DFS can be used to check if a graph is bipartite
 	// But, the graph here must be strongly connected 
+	// Here, 2-coloring problem can be implemented using BFS or DFS
 
 	int color[MAX] = {0};
 
