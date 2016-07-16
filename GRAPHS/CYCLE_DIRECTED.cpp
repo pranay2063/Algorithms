@@ -1,7 +1,7 @@
 
 // If there is back edge in a directed graph, then cycle is present in it
 // Above statement can be proved using parenthesis theorem and white path theorem for directed graphs
-// White path theorem : v is a descendant of u if and only if at time d[u], there is a path u->v consisting of only white vertices
+// White path theorem : v is a descendant of u if and only if at time d[u], there is a path u->v consisting of only white vertices(not u)
 // Cycle detection algorithm for undirected graphs can not be applied to directed graphs
 // Due to nature of cycles in directed graphs, it is practical to use DFS
 
