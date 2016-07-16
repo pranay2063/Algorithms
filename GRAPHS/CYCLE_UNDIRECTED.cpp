@@ -18,7 +18,7 @@ vector<int> adj[MAX];
 bool DFS(int u, int visited[], int parent)
 {
 
-    // In DFS, parent is recursively passed as parameter
+    	// In DFS, parent is recursively passed as parameter
 	visited[u] = 1;
 
 	for(int i = 0; i != adj[u].size(); ++i)
@@ -28,8 +28,8 @@ bool DFS(int u, int visited[], int parent)
 		if(!visited[v])
 		{
 
-            // In case of if1-if2-else, else is reached when if1 is true and if2 is false
-            if(DFS(v, visited, u))
+            		// In case of if1-if2-else, else is reached when if1 is true and if2 is false
+            		if(DFS(v, visited, u))
 				// if true, then only return in the middle of loop
 				return true;
 
