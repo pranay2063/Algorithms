@@ -36,9 +36,9 @@ bool DFS(int u, int color[])
 
 		}
 		else if(color[v] == GRAY)
-             // if there is an edge from u(current) to v(adjacent) where v is only discovered and not finished
-             // then it is a back edge (edge to its ancestor) 
-			 return true;
+             		// if there is an edge from u(current) to v(adjacent) where v is only discovered and not finished
+             		// then it is a back edge (edge to its ancestor) 
+			return true;
 
 	}
 
