@@ -44,7 +44,7 @@ bool MERGE_SET(int x, int y)
 	// rank will increase only if subsets have same rank (or height)
 	if(rank[rootx] == rank[rooty]) rank[rooty] += 1;
 
-	return false; // cycle is not found and x & y were connected
+	return false; // cycle was not found and x & y were connected
 
 }
 
