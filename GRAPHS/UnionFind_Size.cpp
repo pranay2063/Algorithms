@@ -19,8 +19,8 @@ int FIND_SET(int x)
 
 	// function to return root of the connected component (subset) containing x
 	// path compression is to flatten graph by connecting a node directly to its root
-	if(x != p[x]) x = FIND_SET(p[x]);
-	return x;
+	if(x != p[x]) p[x] = FIND_SET(p[x]);
+	return p[x];
 
 }
 
