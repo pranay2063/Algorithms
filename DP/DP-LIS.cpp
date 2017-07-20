@@ -20,25 +20,23 @@ int main()
     for(i=0;i<n;i++)  scanf("%d",&a[i]);
 
     int ans=0;
-    temp[0]=INT_MIN; 
+    temp[0]=0; 
 
     //temp[j]=i means j is the length of a subsequence whose end element is at index i of input array
     //pre[] array stores the predecessor of a[i] in its increasing subsequence
 
-    for(i=0;i<n;i++)
+    for(i=1;i<n;i++)
     {
 
         //Binary search to find the length new subsequence ending at a[i]
         //This one is an online algorithm
 
-        int start=1,end=ans,mid;
+        int start=0,end=ans,mid;
 
         while(start<=end)
         {
 
-            if((start+end)&1) mid=(start+end)/2+1;
-
-            else mid=(start+end)/2;
+            mid=(start+end)/2;
 
             if(a[temp[mid]]<a[i]) start=mid+1;
 
@@ -57,14 +55,14 @@ int main()
 
     }
 
-    printf("%d",ans);
+    printf("%d",ans+1);
 
     putchar('\n');
 
     vector<int> lis;
     int k=temp[ans];
 
-    for(i=0;i<ans;i++)
+    for(i=0;i<ans+1;i++)
     {
 
         lis.push_back(a[k]);
