@@ -5,3 +5,4 @@ http://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/
 http://www.geeksforgeeks.org/median-of-stream-of-running-integers-using-stl/
 
 https://leetcode.com/problems/minimum-moves-to-equal-array-elements/#/description
+https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/#/description
