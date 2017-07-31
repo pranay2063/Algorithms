@@ -5,11 +5,9 @@ using namespace std;
 
 struct node 
 {
-
 	int data;
 	node *left;
 	node *right;
-
 };
 
 //The time complexity of the algorithm is O(n) and space complexity is O(1)
@@ -28,10 +26,8 @@ void inorderMorris(node *root)
 
 		if(current->left == NULL)
 		{
-
 			cout<<current->data<<" ";
 			current = current->right;
-
 		}	
 		else
 		{
@@ -43,22 +39,18 @@ void inorderMorris(node *root)
 
 			if(pre->right == NULL)
 			{
-
 				//find inorder predecessor of current assuming BST
 				//set current as the right child of the rightmost node of the left subtree
 				pre->right = current;
 				current = current->left;
-
 			}	
 			else
 			{
-
 				//this is the case where restoration of the original tree happens 
 				//links which were added as a part of morris traversal are removed
 				pre->right = NULL;
 				cout<<current->data<<" ";
 				current = current->right;
-
 			}	
 
 		}	
@@ -81,10 +73,8 @@ void preorderMorris(node *root)
 
 		if(current->left == NULL)
 		{
-
 			cout<<current->data<<" ";
 			current = current->right;
-
 		}	
 		else
 		{
@@ -96,22 +86,18 @@ void preorderMorris(node *root)
 
 			if(pre->right == NULL)
 			{
-
 				//find inorder predecessor of current assuming BST
 				//set current as the right child of the rightmost node of the left subtree
 				pre->right = current;
 				cout<<current->data<<" ";
 				current = current->left;
-
 			}	
 			else
 			{
-
 				//this is the case where restoration of the original tree happens 
 				//links which were added as a part of morris traversal are removed
 				pre->right = NULL;
 				current = current->right;
-
 			}	
 
 		}	
