@@ -8,11 +8,8 @@ void insert_heap(int a[],int &size,int value)
 {
  
     //Insertion in a heap
- 
     //We increase the size of heap by 1 and insert the value into it
- 
     //After inserting into it,we shift the element to its proper position
- 
     //a[size] is the array for heap
  
     size++;
@@ -25,9 +22,7 @@ void insert_heap(int a[],int &size,int value)
     {
  
        swap(a[parent], a[child]);
- 
        child=child/2;
- 
        parent=parent/2;
  
     }
@@ -38,9 +33,7 @@ void heapify_bottom(int a[],int root,int &size)
 {
  
     // Complexity is O(n)
- 
     // It is a bottom-up approach because we create heap starting from bottom till root
- 
     // a[size] is the array for heap
  
     int parent=root;
@@ -49,24 +42,18 @@ void heapify_bottom(int a[],int root,int &size)
     while(left<=size && right<=size)
     {
  
-        if(a[parent]>=a[left] && a[parent]>=a[right])
-        {
- 
-            break;
- 
-        }
+        if(a[parent]>=a[left] && a[parent]>=a[right])  break;       
+         
         else if(a[left]>a[right])
              {
  
                  swap(a[parent],a[left]);
- 
                  parent=left;
  
              }
              else {
  
                       swap(a[parent],a[right]);
- 
                       parent=right;
  
                   }
@@ -91,7 +78,6 @@ int delete_heap(int a[],int root,int &size)
     // a[size] is the array for heap
  
     int temp=a[1];
- 
     a[1]=a[size];
  
     size--;
@@ -106,11 +92,8 @@ void make_heap(int a[],int size)
 {
  
     // Complexity is O(n)
- 
     // It is a bottom-up approach because we create heap starting from bottom till root
- 
     // Also , leaf nodes is a heap already
- 
     // a[size] is the array for heap
  
     for(int i=size/2;i>=1;i--)
@@ -127,11 +110,9 @@ void heap_sort(int a[],int size)
     {
  
         int temp_size=i;
- 
         int temp=delete_heap(a,1,temp_size);
- 
         temp_size++;
- 
+   
         a[temp_size]=temp;
  
     }
