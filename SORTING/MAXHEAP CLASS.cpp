@@ -1,6 +1,6 @@
 /*
 
-   Purpose : A C program to convert a given array of elements in random order to maxheap and
+   Purpose : A C++ program to convert a given array of elements in random order to maxheap and
              discuss complexities of different approaches that can be chosen.
 
 */
@@ -71,9 +71,7 @@ void max_heap :: restore_up(int size)
      {
 
          swap(a[parent],a[child]);
-
          child=child/2;
-
          parent=parent/2;
 
      }
@@ -106,14 +104,12 @@ void max_heap :: restore_down(int root)
               {
 
                    swap(a[left],a[root]);
-
                    root=left;
 
               }
               else {
 
                         swap(a[right],a[root]);
-
                         root=right;
 
                    }
@@ -139,9 +135,7 @@ void max_heap :: heap_sort()
     {
 
         swap(a[1],a[size-1]);
-
         --size;
-
         restore_down(1);
 
     }
