@@ -9,3 +9,5 @@ https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/#/descrip
 
 http://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/
 https://stackoverflow.com/questions/5502916/explain-morris-inorder-tree-traversal-without-using-stacks-or-recursion
+
+https://stackoverflow.com/questions/9755721/how-can-building-a-heap-be-on-time-complexity
