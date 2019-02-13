@@ -11,12 +11,11 @@ int divide_max(int a[],int left,int right)
 	//Recurrence relation is T(n)=T(n/2)+2
  
 	if(left==right)
-	return a[left];
+		return a[left];
  
 	else {
  
 		      int mid=(left+right)/2;
- 
 		      return max(divide_max(a,left,mid),divide_max(a,mid+1,right));
  
 	     }
@@ -27,13 +26,10 @@ int brute_max(int a[],int size)
 {
  
     int max=INT_MIN;
- 
     for(int i=0;i<size;i++)
     {
- 
        if(a[i]>max)
-       max=a[i];
- 
+       	max=a[i];
     }
  
     return max;
@@ -44,18 +40,15 @@ int main()
 {
  
 	int n;
- 
 	scanf("%d",&n);
  
 	int *a;
- 
 	a=(int *)malloc(n*sizeof(int));
  
 	for(int i=0;i<n;i++)
-	scanf("%d",&a[i]);
+		scanf("%d",&a[i]);
  
 	printf("%d\n",divide_max(a,0,n-1));
- 
 	printf("%d\n",brute_max(a,n));
  
 	return 0;
