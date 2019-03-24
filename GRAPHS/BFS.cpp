@@ -32,7 +32,7 @@ void BFS(int start, int visited[])
 			}
 		}
 
-		Q.pop();
+		Q.pop(); 
 	}
 
 }
