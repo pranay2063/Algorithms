@@ -7,4 +7,4 @@
 **Heapsort**
 1. Is it stable? No
 2. Is it in-place? Yes
-3. Complexity of heapsort - *https://stackoverflow.com/questions/9755721/how-can-building-a-heap-be-on-time-complexity*
+3. Time complexity derivation - *https://stackoverflow.com/questions/9755721/how-can-building-a-heap-be-on-time-complexity*
