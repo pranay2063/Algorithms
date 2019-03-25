@@ -11,7 +11,7 @@ using namespace std;
 
 class max_heap{
 
-
+             //binary heap is a complete binary tree
              int size;
              int *a;//=(int *)malloc((size+1)*sizeof(int));
 
@@ -72,7 +72,7 @@ void max_heap :: restore_up(int size)
 
 void max_heap :: bottom_up()
 {
-
+     //there is no need to call restore_down for leaf nodes
      for(int i=size/2;i>=1;i--)
         restore_down(i);
 
