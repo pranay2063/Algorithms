@@ -76,8 +76,7 @@ void make_heap(int a[],int size)
     // Also , leaf nodes is a heap already
     // a[size] is the array for heap
  
-    for(int i=size/2;i>=1;i--)
-    heapify_bottom(a,i,size);
+    for(int i=size/2;i>=1;i--) heapify_bottom(a,i,size);
  
 }
  
@@ -110,16 +109,14 @@ int main(void)
     heap_sort(a,n);
  
     //cout<<"SORTED DATA : ";
-    for(i=1;i<=n;i++)
-    cout<<a[i]<<endl;
+    for(i=1;i<=n;i++) cout<<a[i]<<endl;
     cout<<endl;
  
     insert_heap(a,n,33);
     heap_sort(a,n);
  
     cout<<"SORTED DATA : ";
-    for(i=1;i<=n;i++)
-    cout<<a[i]<<" ";
+    for(i=1;i<=n;i++) cout<<a[i]<<" ";
  
     return 0;
  
