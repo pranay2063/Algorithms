@@ -13,9 +13,7 @@ void insertion_sort(vector<int> &a)
      for(i=1;i<a.size();i++)
      {
           int temp=a[i];
-          for(j=i-1;j>=0 && temp<a[j];j--)
-          a[j+1]=a[j];
-
+          for(j=i-1;j>=0 && temp<a[j];j--)   a[j+1]=a[j];
           a[j+1]=temp;
      }
 
