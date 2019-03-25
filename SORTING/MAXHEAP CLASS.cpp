@@ -44,15 +44,14 @@ max_heap :: max_heap(int b[],int len)
 void max_heap :: print()
 {
 
-    for(int i=1;i<size;i++)
-    cout<<a[i]<<endl;
+    for(int i=1;i<size;i++)   cout<<a[i]<<endl;
     cout<<endl;
 
 }
 
 void max_heap :: top_to_down()
 {
-
+   
      for(int i=2;i<=size;i++)
         restore_up(i);
 
@@ -62,7 +61,6 @@ void max_heap :: restore_up(int size)
 {
 
      int child=size,parent=size/2;
-
      while(a[parent]<a[child] && parent>=1)
      {
          swap(a[parent],a[child]);
@@ -102,8 +100,7 @@ void max_heap :: restore_down(int root)
          right=left+1;
      }
 
-     if(left<size && a[left]>a[root])
-     swap(a[left],a[root]);
+     if(left<size && a[left]>a[root])  swap(a[left],a[root]);
 
 }
 
