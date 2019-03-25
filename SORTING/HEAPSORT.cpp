@@ -1,7 +1,6 @@
 //Time Complexity of heapsort is nlog(n)
 
 #include<bits/stdc++.h>
- 
 using namespace std;
  
 void insert_heap(int a[],int &size,int value)
@@ -13,18 +12,14 @@ void insert_heap(int a[],int &size,int value)
     //a[size] is the array for heap
  
     size++;
- 
     a[size]=value;
- 
     int parent=size/2,child=size;
  
     while(a[parent]<a[child] && parent>=1)
     {
- 
        swap(a[parent], a[child]);
        child=child/2;
        parent=parent/2;
- 
     }
  
 }
@@ -41,34 +36,22 @@ void heapify_bottom(int a[],int root,int &size)
  
     while(left<=size && right<=size)
     {
- 
         if(a[parent]>=a[left] && a[parent]>=a[right])  break;       
-         
         else if(a[left]>a[right])
              {
- 
                  swap(a[parent],a[left]);
                  parent=left;
- 
              }
              else {
- 
                       swap(a[parent],a[right]);
                       parent=right;
- 
                   }
  
         left=2*parent;
         right=2*parent+1;          
- 
     }
  
-    if(left<=size && a[parent]<a[left])
-    {
- 
-        swap(a[left],a[parent]);
- 
-    }
+    if(left<=size && a[parent]<a[left]) swap(a[left],a[parent]);
  
 }   
  
@@ -76,16 +59,13 @@ int delete_heap(int a[],int root,int &size)
 {
  
     // a[size] is the array for heap
- 
     int temp=a[1];
     a[1]=a[size];
- 
     size--;
  
     heapify_bottom(a,1,size);
  
     return temp;
- 
 }
  
 void make_heap(int a[],int size)
@@ -108,13 +88,10 @@ void heap_sort(int a[],int size)
  
     for(int i=size;i>=1;i--)
     {
- 
         int temp_size=i;
         int temp=delete_heap(a,1,temp_size);
         temp_size++;
-   
         a[temp_size]=temp;
- 
     }
  
 }
@@ -123,29 +100,24 @@ int main(void)
 {
  
     int n,i;
- 
     cin>>n;
  
     int a[n+1];
  
     for(i=1;i<=n;i++)
-    cin>>a[i];
+     cin>>a[i];
  
     heap_sort(a,n);
  
     //cout<<"SORTED DATA : ";
- 
     for(i=1;i<=n;i++)
     cout<<a[i]<<endl;
- 
     cout<<endl;
  
     insert_heap(a,n,33);
- 
     heap_sort(a,n);
  
     cout<<"SORTED DATA : ";
- 
     for(i=1;i<=n;i++)
     cout<<a[i]<<" ";
  
