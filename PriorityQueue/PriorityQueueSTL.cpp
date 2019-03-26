@@ -5,8 +5,9 @@ using namespace std;
 struct data{
 	int a;
 	char c;
-	data(int a, char c): a(a), c(c){ }
-	bool operator<(const data& rhs) const {
+	data(int a, char c): a(a), c(c){ } //constructor for struct in C++
+	bool operator<(const data& rhs) const { 
+		//custom comparator in case data is struct
 		return a < rhs.a;
 	}
 };
