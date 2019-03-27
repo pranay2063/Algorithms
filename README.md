@@ -12,19 +12,20 @@
 
    *https://stackoverflow.com/questions/9755721/how-can-building-a-heap-be-on-time-complexity*
 
+**Trees**
+1. Morris Traversal**
+
+   *http://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/*
+   *https://stackoverflow.com/questions/5502916/explain-morris-inorder-tree-traversal-without-using-stacks-or-recursion*
+   
 **Ad hoc**
 1. Minimum Moves to Equal Array Elements
    
    *https://leetcode.com/problems/minimum-moves-to-equal-array-elements/#/description
    *https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/#/description 
 
-**Trees**
-1. Morris Traversal**
-
-   *http://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/*
-   *https://stackoverflow.com/questions/5502916/explain-morris-inorder-tree-traversal-without-using-stacks-or-recursion*
-
 **Note**
 1. Random number generation in C++**
+
    *https://www.geeksforgeeks.org/rand-and-srand-in-ccpp/*
 
