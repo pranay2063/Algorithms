@@ -21,8 +21,8 @@
 **Ad hoc**
 1. Minimum Moves to Equal Array Elements
    
-   *https://leetcode.com/problems/minimum-moves-to-equal-array-elements/#/description
-   *https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/#/description 
+   *https://leetcode.com/problems/minimum-moves-to-equal-array-elements/#/description*
+   *https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/#/description* 
 
 **Note**
 1. Random number generation in C++**
