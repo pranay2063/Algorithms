@@ -13,7 +13,7 @@
    *https://stackoverflow.com/questions/9755721/how-can-building-a-heap-be-on-time-complexity*
 
 **Trees**
-1. Morris Traversal**
+1. Morris Traversal
 
    *http://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/*
    *https://stackoverflow.com/questions/5502916/explain-morris-inorder-tree-traversal-without-using-stacks-or-recursion*
