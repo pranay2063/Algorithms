@@ -2,7 +2,6 @@
 //counting inversions using mergesort
 
 #include <bits/stdc++.h>
-
 using namespace std;
 
 #define ll long long
@@ -18,18 +17,14 @@ ll merge(int left[], int nleft, int right[], int nright, int c[])
 
     while(i < nleft && j < nright)
     {
-
         while(left[i] <= right[j] && i < nleft) c[k++] = left[i++];
 
         while(left[i] > right[j] && j < nright)
         {
-
             //case of inversions
              c[k++] = right[j++];
              ans += (nleft-i);
-
         }
-
     }
 
     while(i < nleft) c[k++] = left[i++];
