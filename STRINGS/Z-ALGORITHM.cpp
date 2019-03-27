@@ -1,10 +1,8 @@
 
 #include<bits/stdc++.h>
-
 using namespace std;
 
 const int MAX = 5005;
-
 int cnt[MAX];
 
 void z_function(string &a,vector<int> &Z)
@@ -23,7 +21,6 @@ void z_function(string &a,vector<int> &Z)
     //(2) the boundaries L,R of the rightmost Z-box found starting someplace in 2...(i-1).
 
     int i,j,L=0,R=0,N=a.length();
-
     Z[0]=a.length();
 
     for(i=1;i!=N;i++)
@@ -31,7 +28,6 @@ void z_function(string &a,vector<int> &Z)
 
          if(i>R)
          {
-
                //there is no rightmost Z-box till i
 
                //we will manually compare a[i...] to a[0...] to find Z[i]
@@ -43,36 +39,30 @@ void z_function(string &a,vector<int> &Z)
                while(R<N && a[R-L]==a[R]) R++;
 
                R--;
-
                Z[i]=R-L+1;
-
          }
          else {
 
                     //a[L...R] = a[0...(R-L)]
-
                     //a[i] = a[i-L]
 
                     int k=i-L;
-
                     if(Z[k]<(R-i+1)) Z[i]=Z[k];
 
                     else {
-
+                        
                              //if Z[k]==(R-i+1) , then Z[i] can be greater than or equal to Z[k]
 
                              //we will have to confirm by checking manually
 
                              L=i;
-
                              R++;
 
                              while(R<N && a[R-L]==a[R]) R++;
 
                              R--;
-
                              Z[i]=R-L+1;
-
+                        
                     }//end of inner else
 
          }//end of outer else
@@ -174,16 +164,13 @@ int main()
 
     int t;
     string a;
-
     scanf("%d",&t);
 
     while(t--)
     {
 
          cin>>a;
-
          count_find(a);
-
          print_count(a);
 
     }
