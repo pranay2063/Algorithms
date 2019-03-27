@@ -17,7 +17,7 @@ int randomGenerator(int a[], int n){
 }
 
 int binarySearch(int a[], int n, int x){
-	//Binary search can be applied on sorted array
+	//Binary search can only be applied on sorted array
 	int start = 0, end = n-1;
 	while(start <= end){
 		int mid = (start+end)/2;
