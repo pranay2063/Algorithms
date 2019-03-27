@@ -4,6 +4,12 @@ using namespace std;
 
 const int N = 10;
 
+int disp(int a[], int n){
+	for(int i = 0; i < n; ++i)
+		cout<<a[i]<<" ";
+	cout<<endl;	
+}
+
 int randomGenerator(int a[], int n){
 	srand(time(0));
 	for(int i = 0; i < n; ++i)
@@ -12,7 +18,7 @@ int randomGenerator(int a[], int n){
 
 int binarySearch(int a[], int n, int x){
 	//Binary search can be applied on sorted array
-	int start = 0, end = n;
+	int start = 0, end = n-1;
 	while(start <= end){
 		int mid = (start+end)/2;
 		if(x == a[mid]) return mid;
@@ -29,11 +35,9 @@ int main() {
 	randomGenerator(a, N);
 	sort(a, a+N);
 	cout<<"Sorted array : ";
-	for(int i = 0; i < N; ++i)
-		cout<<a[i]<<" ";
-	cout<<endl;	
+	disp(a, N);
 	num = rand()%(2*N);
-	int res = binarySearch(a, N-1, num);
+	int res = binarySearch(a, N, num);
 	if(res == -1)
 		cout<<num<<" does not exist in specified array"<<endl;
 	else	cout<<num<<" exists in specified array"<<endl;	
