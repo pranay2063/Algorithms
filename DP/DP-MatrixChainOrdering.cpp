@@ -1,26 +1,20 @@
 #include<bits/stdc++.h>
-
 using namespace std;
 
 const int MAX = 405;
-
 int dp[MAX][MAX],split[MAX][MAX];
-
 vector<bool> computed(MAX,false);
 
 void print(int i,int j)
 {
 
     // A function to print optimal parenthesizations
-
     if(i!=j)
     {
-
         // Optimal Parenthesizations
-
         print(i,split[i][j]);
         print(split[i][j]+1,j);
-
+        
         //string istr=computed[i] ? "->result " : " ";
         //string jstr=computed[j] ? "->result " : " ";
 
@@ -29,7 +23,6 @@ void print(int i,int j)
 
         computed[i] = true;
         computed[j] = true;
-
     }
 
 }
@@ -38,20 +31,13 @@ void print2(int i,int j)
 {
 
     // A function to print optimal parenthesizations
-
     // Optimal Parenthesizations
-
     if(i==j) cout<<"A["<<i<<"]";
-
     else {
-
               cout<<"(";
-
               print2(i,split[i][j]);
               print2(split[i][j]+1,j);
-
               cout<<")";
-
          }
 
 }
@@ -61,7 +47,6 @@ int main()
 {
 
     //https://en.wikipedia.org/wiki/Matrix_chain_multiplication
-
     int n;
 
     // there are n matrices
@@ -69,7 +54,6 @@ int main()
     // thus p has length (n+1)
 
     scanf("%d",&n);
-
     int p[n+1];
 
     for(int i=0;i<=n;i++) scanf("%d",&p[i]);
@@ -92,39 +76,26 @@ int main()
 
     for(int len=2;len<=n;len++)
     {
-
         for(int i=1;i<=(n-len+1);i++)
         {
-
             int j=i+len-1;
-
             dp[i][j]=INT_MAX;
 
             for(int k=i;k<=(j-1);k++)
             {
-
                 int temp=dp[i][k]+dp[k+1][j]+p[i-1]*p[k]*p[j];
-
                 if(temp<dp[i][j])
                 {
-
                     dp[i][j]=temp;
-
                     split[i][j]=k;
-
                 }
-
             }
-
         }
-
     }
 
     printf("%d",dp[1][n]);
-
     putchar('\n');
     putchar('\n');
-
     print2(1,n);  // Optimal Parenthesizations
 
     return 0;
