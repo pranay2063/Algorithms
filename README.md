@@ -25,7 +25,7 @@
    *https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/#/description* 
 
 **Note**
-1. Random number generation in C++**
+1. Random number generation in C++
 
    *https://www.geeksforgeeks.org/rand-and-srand-in-ccpp/*
 
