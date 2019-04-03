@@ -34,7 +34,7 @@ void inorder(node *root)
 		else break;
 	}	
 
-	cout<<endl;
+	cout<<endl; 
 
 }
 
