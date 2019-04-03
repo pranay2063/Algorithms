@@ -5,11 +5,9 @@ using namespace std;
 
 struct node 
 {
-
 	int data;
 	node *left;
 	node *right;
-
 };
 
 void inorder(node *root)
@@ -20,27 +18,20 @@ void inorder(node *root)
 	stack<node *> s;
 	while(1)
 	{
-
 		while(root != NULL)
 		{
-
 			s.push(root);
 			root = root->left;
-
 		}	
 
 		if(!s.empty())
 		{
-
 			node *x = s.top();
 			s.pop();
-
 			cout<<x->data<<" ";
 			if(x->right != NULL) root = x->right;
-
 		}	
 		else break;
-
 	}	
 
 	cout<<endl;
@@ -55,27 +46,20 @@ void preorder(node *root)
 	stack<node *> s;
 	while(1)
 	{
-
 		while(root != NULL)
 		{
-
 			cout<<root->data<<" ";
 			s.push(root);
 			root = root->left;
-
 		}	
 
 		if(!s.empty())
 		{
-
 			node *x = s.top();
 			s.pop();
-
 			if(x->right != NULL) root = x->right;
-
 		}	
 		else break;
-
 	}	
 
 	cout<<endl;
@@ -90,14 +74,11 @@ void postorder(node *root)
 	stack<node *> s;
 	while(1)
 	{
-
 		while(root)
 		{
-
 			if(root->right) s.push(root->right);
 			s.push(root);
 			root = root->left;
-
 		}	
 
 		root = s.top();
@@ -105,22 +86,17 @@ void postorder(node *root)
 
 		if(root->right && !s.empty() && root->right == s.top())
 		{
-
 			s.pop();
 			s.push(root);
 			root = root->right;
-
 		}	
 		else
 		{
-
 			cout<<root->data<<" ";
 			root = NULL;
-
 		}		
 		
 		if(s.empty()) break;
-
 	}
 
 	cout<<endl;
