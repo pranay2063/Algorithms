@@ -31,11 +31,9 @@ void DFS(int u, vector<int> temp[], int visited[], int flag)
 
 	for(int i = 0; i != temp[u].size(); ++i)
 	{
-
 		int v = temp[u][i];
 		if(!visited[v])
 			DFS(v, temp, visited, flag);
-
 	}
 
 	if(flag == 1) S.push(u);        // push elements to stack after their finishing time
@@ -95,19 +93,14 @@ void SCC_find(int n)
 
 	while(!S.empty())
 	{
-
 		if(!visited[S.top()])
 		{
-
         		++cnt;
             		printf("SCC%d : ", cnt);
 			DFS(S.top(), adjR, visited, flag);
 			printf("\n");
-
 		}
-
 		S.pop();
-
 	}
 
 }
@@ -120,11 +113,9 @@ int main()
 
 	for(i = 0; i < m; ++i)
 	{
-
 		scanf("%d%d",&a,&b);
 		adj[a].push_back(b);   // directed graph
 		adjR[b].push_back(a);  // transpose of directed graph
-
 	}
 
 	if(SCC_check(n)) printf("The graph is strongly connected.\n");
