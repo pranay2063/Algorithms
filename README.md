@@ -19,7 +19,10 @@
    *https://stackoverflow.com/questions/5502916/explain-morris-inorder-tree-traversal-without-using-stacks-or-recursion*
 
 2. Check if a binary tree is BST - *https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/*
-3. Inorder successor of a BST - *https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/*
+3. Inorder successor of a BST - 
+
+   *https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/*
+   *https://stackoverflow.com/questions/5471731/in-order-successor-in-binary-search-tree*
    
 **Ad hoc**
 1. Minimum Moves to Equal Array Elements
