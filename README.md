@@ -37,3 +37,6 @@
 
 **Amazon Interview Questions**
 1. *https://www.geeksforgeeks.org/amazon-topics-interview-preparation/*
+
+**Design**
+1. LRU - *https://www.geeksforgeeks.org/lru-cache-implementation/*
