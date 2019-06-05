@@ -66,6 +66,28 @@ void preorder(node *root)
 
 }
 
+void preorder2(node *root)
+{
+
+	cout<<"PREORDER : ";
+	
+	if(root == NULL) return ;
+	
+	stack<node *> s;
+	s.push(root);
+	
+	while(!s.empty()){
+		node *root = s.top();
+		cout<<root->data<<" ";
+		s.pop();
+		if(root->right != NULL)
+			s.push(root->right);
+		if(root->left != NULL)
+			s.push(root->left);
+	}
+	cout<<endl;
+}
+
 void postorder(node *root)
 {
 
