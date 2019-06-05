@@ -19,7 +19,10 @@ class Node{
 
 void MorrisInorder(Node *root){
 
+	//The time complexity of the algorithm is O(n) and space complexity is O(1)
+	//Morris traversal does inorder & preorder traversal of a binary tree without using any additional space
 	//Morris traversal creates additional links and then breaks them to bring original tree back
+	
 	if(root == NULL) return;
 
 	Node *current = root;
@@ -31,15 +34,20 @@ void MorrisInorder(Node *root){
 		}
 		else{
 			
+			//this is where changes occur as a part of morris traversal
 			Node *pre = current->left;
 			while(pre->right != NULL && pre->right != current)
 				pre = pre->right;
 
 			if(pre->right == NULL){
+				//find inorder predecessor of current assuming BST
+				//set current as the right child of the rightmost node of the left subtree
 				pre->right = current;
 				current = current->left;
 			}
 			else{
+				//this is the case where restoration of the original tree happens 
+				//links which were added as a part of morris traversal are removed
 				cout<<current->data<<" ";
 				pre->right = NULL;
 				current = current->right;
