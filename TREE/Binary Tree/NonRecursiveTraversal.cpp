@@ -69,7 +69,7 @@ void preorder(node *root)
 void preorder2(node *root)
 {
 
-	cout<<"PREORDER : ";
+	cout<<"PREORDER2 : ";
 	
 	if(root == NULL) return ;
 	
