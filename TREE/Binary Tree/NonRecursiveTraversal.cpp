@@ -150,6 +150,7 @@ int main(int argc, char const *argv[])
 
 	inorder(root);
 	preorder(root);
+	preorder2(root);
 	postorder(root);
 
 	return 0;
