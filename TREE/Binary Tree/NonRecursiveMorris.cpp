@@ -29,7 +29,7 @@ void inorderMorris(node *root)
 			cout<<current->data<<" ";
 			current = current->right;
 		}	
-		else
+		else 
 		{
 
 			//this is where changes occur as a part of morris traversal
