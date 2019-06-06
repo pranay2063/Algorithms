@@ -54,8 +54,8 @@ int main(){
 		cin>>a[i];
 
 	runningMedian(a, n); 
-  //Time complexity : O(NlogN)
-  //Space complexity : O(N)
+  	//Time complexity : O(NlogN)
+  	//Space complexity : O(N)
 
 	return 0;
 
