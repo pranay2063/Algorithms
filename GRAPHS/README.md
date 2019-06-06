@@ -10,5 +10,5 @@
 8. *Shortest path - Dijkstra's algorithm*
 9. *Diameter of a graph* - Longest shortest paths among all pair of vertices
 
-    https://stackoverflow.com/questions/3174569/what-is-meant-by-diameter-of-a-network
-    https://cs.stackexchange.com/questions/194/the-time-complexity-of-finding-the-diameter-of-a-graph
+    *https://stackoverflow.com/questions/3174569/what-is-meant-by-diameter-of-a-network*
+    *https://cs.stackexchange.com/questions/194/the-time-complexity-of-finding-the-diameter-of-a-graph*
