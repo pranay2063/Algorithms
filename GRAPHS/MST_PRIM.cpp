@@ -33,7 +33,7 @@ void Prim(vector<pp> adj[], int V){
 	}
 
 	for(int i = 1; i < V; ++i)
-		cout<<parent[i]<<" "<<i<<endl; //print edges in MST
+		cout<<parent[i]<<" "<<i<<endl; //print edges in MST 
 
 }
 
