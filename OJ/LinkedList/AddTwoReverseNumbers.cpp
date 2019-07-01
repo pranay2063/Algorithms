@@ -14,10 +14,9 @@ public:
         while(head){
             ++cnt;
             head = head->next;
-        }
-        
+        } 
         return cnt;
-    
+        
     }
     
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
