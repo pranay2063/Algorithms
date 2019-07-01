@@ -4,7 +4,7 @@ public:
         
         if(s.length() == 0) return 0;
         int ans = 1, cnt = 0;
-        map<char,int> mp;
+        map<char,int> mp; //stores last occurence of a character
         for(int i = 0; i < s.length(); ++i){
             if(mp.find(s[i]) == mp.end()){
                 ++cnt;
