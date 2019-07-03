@@ -22,5 +22,5 @@ public:
             ans.push_back(ch);
         }
         return ans;
-    }
+    } 
 };
