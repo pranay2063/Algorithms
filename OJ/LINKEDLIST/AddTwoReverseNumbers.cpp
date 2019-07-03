@@ -21,7 +21,7 @@ public:
     
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         
-        int s1 = length(l1);
+        int s1 = length(l1); 
         int s2 = length(l2);
         
         int carry = 0;
