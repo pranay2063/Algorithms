@@ -1,6 +1,7 @@
 class Solution {
 public:
     string longestPalindrome(string s) {
+        
         int dp[1001][1001] = {0};
         for(int i = 0; i < s.length(); ++i) dp[i][i] = 1;
         //check if substrings of different lengths are palindrome or not
@@ -38,5 +39,6 @@ public:
         return s.substr(start,end-start+1);
         //Time : O(N^2)
         //Space : O(N^2)
+    
     }
 };
