@@ -188,14 +188,14 @@
     
 **13. Design snake and ladder game**
 
-    Design snake and ladder game. Questions were then asked on now it can be extended. 
+    Design snake and ladder game. Questions were then asked on how it can be extended. 
+    
+    BONUS (System design of same problem):
+    Design snakes and ladders game (multiplayer). Extend it so that it can be hosted over a server and played over a server.
     
 **14. Tic Tac Toe Game**
     
     Design and build tic tac toe game. The code should be up and running. It should be scalable to multi-users and nXn grid.    
-    
-    BONUS (System design of same problem):
-    Design snakes and ladders game (multiplayer). Extend it so that it can be hosted over a server and played over a server.
     
 **15. Two player multiple ships game**
 
