@@ -168,4 +168,20 @@
     – It should be extensible (I should be able to add any number of states or transitions at any time)
     – I should be able to set notifications on or off for any state or for the whole state machine
     
-  
+**12. Regular Expressions**
+
+    In a regular expression, * represents 0 or more repetitions for preceding character. & represents the regex preceeding it is at the end of string. and all small case letters represent themselves. For example:
+
+    rat&
+    Pass: bigrat, smallrat
+    Fail: ratoulite rats
+
+    a*b
+    Pass: b, ab, aab
+    Fail a, asd
+
+    abc
+    Pass: abc, abcd zabcd
+    Fail: abdc, dabfc
+
+    Write a code for it.
