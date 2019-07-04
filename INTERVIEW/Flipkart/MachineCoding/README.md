@@ -1,4 +1,4 @@
-**1. Design a system like Jira ** - 
+**1. Design a system like Jira** - 
 
     It should have the following functionalities :
     User should be able to create Task of type Story, Feature, Bugs. Each can have their own status.
