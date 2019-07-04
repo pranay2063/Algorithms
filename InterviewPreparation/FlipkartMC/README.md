@@ -140,19 +140,16 @@
     You need to create JSON string from it. 
     {
      ‘a’: {
-     ‘b’: [1,2,99],
-     ‘c’: {
-     ‘e’:3,
-     ‘f’:4
-     }
-           },
+        ‘b’: [1,2,99],
+        ‘c’: {
+            ‘e’:3,
+            ‘f’:4
+             }
+         },
 
      ‘b’: {
-     ‘a’ : 5
-
+        ‘a’ : 5
           }
-
-
     }
     
     Highlighted one is invalid because they come they ask for overwrite the data (a>b>c = 5; C has e and f so we can overwrite.
@@ -163,5 +160,12 @@
 
     I solved this problem using Trie. 
     One can see interviewee's implementation here: https://github.com/nitsgupta/practice/tree/master/JAVA/JsonBuilder
+  
+**11. Finite State Machine**
+
+    Implement a finite state machine.
+    – The machine should have one start state and can have multiple end states
+    – It should be extensible (I should be able to add any number of states or transitions at any time)
+    – I should be able to set notifications on or off for any state or for the whole state machine
     
   
