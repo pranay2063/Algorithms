@@ -18,3 +18,14 @@
     change assignee.
     Change task status etc. 
     Code should be modular and extensible.
+    
+**3. Ride sharing system**
+
+    Design offerRide and shareRide mechanism on basis of fastest and earliest ride
+
+    Create a application that will add user and add their vehicle, there will be two categories one who is offering ride and other who is     selecting ride.
+
+    offerRide(user_name, vehicle_no, origin, destination, start_time, duration)
+    selectRide(user_name, origin, destination, parameter)
+
+    return parameter is fastest ride which will be on shortest duration
