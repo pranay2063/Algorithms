@@ -195,8 +195,18 @@
     
 **14. Tic Tac Toe Game**
     
-    Design and build tic tac toe game. The code should be up and running. It should be scalable to multi-users and nXn grid.    
+    1. Design and build tic tac toe game. The code should be up and running. It should be scalable to multi-users and nXn grid.    
     
+    2. Write a running code in any language to implement the famous tic-tac-toe game.
+       First, there was a discussion on various approaches and basic functions which would be required to implement the same. Then I was asked to code.
+       I was given 1 hour 15 mins to code this. I had to design this game as per following:
+       Game has 3 modes: Human Vs Human, Human Vs Computer and Computer Vs Computer.
+       Initially start with a 3X3 grid, but it can be generalised to NXN grid. So don’t hardcode any variable.
+       Minimise Code Redundancy and try to make it as modular as possible.
+       Try to use abstraction and expose a lesser number of functions(APIs) to the outside world.
+       Try to cover maximum number of edge cases, like when to abort the game, draw condition, win condition, overwriting the existing value in grid etc)
+       After I wrote running code for the same, I was told to explain my code and then run with some test cases. Then he asked me to mail the code.
+
 **15. Two player multiple ships game**
 
     1. Machine Coding:
