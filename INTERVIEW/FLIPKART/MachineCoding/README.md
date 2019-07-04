@@ -1,5 +1,4 @@
-**1 Design a system like Jira ** 
-*It should have the following functionalities :
+**1. Design a system like Jira ** - It should have the following functionalities :
     User should be able to create Task of type Story, Feature, Bugs. Each can have their own status.
     Stories can further have subtracts.
     Should be able to change the status of any task.
@@ -7,4 +6,4 @@
     User should be able to print
     Delayed task
     Sprint details
-    Tasks assigned to the user*
+    Tasks assigned to the user
