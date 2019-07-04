@@ -389,20 +389,25 @@
 
     Given a string regex and anothe ther string pat find whether the pattern is acceptable against given regex string.
     Regex string contains following characters and special characters:
+    
     1. Normal alphabets – a to z and A to Z
+    
     2. ‘$’ – all string should end with all characters preceding $
     Example:
     Regex :abc$ ,
     Pattern: abcd(Not acceptable) , abc(acceptable), ab(Not acceptable), dhfusdhabc(acceptable) etc..
+    
     3. ‘^’ – all string should start with all characters exceeding ^
     Example: Regex : ^abc
     Pattern: abcd(acceptable) , abc(acceptable), ab(Not acceptable), dhfusdhabc(NOT acceptable) etc..
     Regex: ^ then only pattern acceptable is null.
+    
     4. ‘.’ – any character can be mapped to dot except null
     Example 1: Regex : .abc
     Pattern: Zabc(acceptable) , abc(NOT acceptable), ab(Not acceptable), habc(acceptable) etc..
     Example 2: Regex :a.bc
     Pattern: abc(NOT acceptable) , aXbc(acceptable), ab(Not acceptable), habc(NOT acceptable) etc..
+    
     5. ‘*’-the character just preceding * can be repeated n time where (n>=0)
     Example 1: Regex :abc*de
     Pattern: abccccccccccde (acceptable), abcde(acceptable), abcccd(not acceptable)
