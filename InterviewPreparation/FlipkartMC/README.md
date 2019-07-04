@@ -225,3 +225,128 @@
     The logic was required only to start and conclude the game.
 
     I was given close to 1 hour to finish this. First we had a discussion about the design of my solution and then I was asked to code.     After I was done coding, she checked my code, asked a few questions about how will I add some new features in the game.
+    
+**17. Employee Hierarchy**
+
+    Round 1. Machine coding round
+    Maintain an employee hierarchy with attributes 
+    Print complete hierarchy of given employee.
+    find top 10 employees on the basis of salary, at any instant of time .
+    Perform CRUD opérations on the hierarchy.
+
+    They measure you performance on following:
+    Code should be running
+    time limit is 1:30 minutes.
+    Appropriate data structures used.
+    optimized and modular code.
+
+    Round 2: Technical
+    Optimize the code done in machine coding round
+        A lot of discussion on the approach I used. Various edge case discussions.
+        
+**18. Company hierarchy**
+    
+    Company hierarchy/bonus question.
+    Write down the code in any language for a simple employee hierarchy which has 3 types of employees.
+    CEO
+    Manager
+    Employee
+    Where an employee can have only 1 mgr, and a mgr has 1+ employees.
+    We were asked to input employee details(name, id, salary, rating etc) in any order (employees might be input before his manager), create the hierarchy and implement these functionalities:
+
+    Print hierarchy given any employee/mgr/CEO (used an n-ary tree + hash table)
+    Given a bonus and performance rating of each employee divide it to the lowest level employees(in the hierarchy ) in the ratio of their rating. i.e 100 divided among 2:3 is 40 and 60. and print the bonus of each ( simple recursive solution)
+    Top 10 employees with ratio of bonus:salary (used maxheap)
+    Had a discussion on the solution with various variants and edge/faulty cases.
+
+**19. Book Catalogue Search**
+
+    Design a book catalogue search (API’s were given for the search, full needs to be implemented as running application).
+    Discussion on the design and optimization of the application.
+    
+**20. Snake and ladder problem**
+
+    Design the snake and ladder write - https://practice.geeksforgeeks.org/problems/snake-and-ladder-problem/0
+    The full working code was required. They gave us more than 2 hours to complete.
+    Discussion on the code written and how i have implemented.
+    
+**21. Simple employee hierarchy**
+
+    Write down code in any language for a simple employee hierarchy which has 3 types of employees.
+    CEO
+    Manager
+    Employee
+    where an employee can have only 1 mgr, and a mgr has 1+ employees.
+
+    We were asked to input employee details(name, id, salary, rating etc) in any order (employees might be input before his manager), create the hierarchy and implement these functionalities:
+
+    Print hierarchy given any employee/mgr/CEO (used an n-ary tree + hash table)
+    Given a bonus and performance rating of each employee divide it to the lowest level employees(in the hierarchy ) in the ratio of their rating. i.e 100 divided among 2:3 is 40 and 60. and print the bonus of each ( simple recursive solution)
+    Top 10 employees with ratio of bonus:salary (used maxheap)
+    Write working code, modular, extensible, corner case handling etc. was around 1.5 – 2 hrs
+    
+    Discussion on your solution of the 1st round, how you can optimize it, then a review of the written code.
+    
+**22. Book catalogue system**
+
+    You are given a catalog of books, which have following attributes.
+    Name
+    Author
+    Publisher
+    Publish year
+    Category
+    Price
+    Count (sold)
+    Implement following APIs on top of this catalog
+
+    addBookToCatalog(Book)
+    searchBook(by partial book name/author)
+    getMostSoldBooks(by author name/category, limit)
+    Expectations:
+
+    Maintain DB on memory
+    Code should be readable. Design, handle naming convention,handle exceptions & should be running.
+    
+    Discussion on design (interfaces & extension)
+    Discussion on data structures (trie)
+    Discussion on sorting
+    
+**23. Operations on large numbers**
+
+    Problem was to do 3 operations on very large numbers.
+    Addition
+    Subtraction
+    Multiplication
+    Input can be positive or negative. In this round, the focus was on Design and Coding Skills.
+    
+    I was given 1 hr 30 mins to code for the problem. I completed in around 1hr 15 mins. Then he asked me to extend my code for decimal numbers as well. I told him the approach. Then he asked me how will I do the division as well.
+    
+**24. Operations on numbers (same as 23)**
+
+    Given two very large numbers a & b in string format. You need to produce the result for the following operation:
+    0: Add a & b
+    1: Subtract a & b
+    2: Multiply a & b
+    Example:
+    123456789
+    987654321
+
+    Output:
+    0 → 1111111110
+    1 → -864197532
+    2 → 1219326313718945259
+
+    Few cases were checked specifically:
+
+    Output of 132-132 must be 0 not 000.
+    2 – 122222000002 should produce -122222000000 i.e either a or b can be the bigger string.
+    Negative input should be handled. Result of -2+202 = 200.
+    1000000000 – 1 = 999999999 i.e. resulting answer can be of different length.
+    
+ **25. Employee database**
+ 
+    Create an employee database structure in which Employee has id, name, manager. Three functionalities required were
+    a) Given any id return all the employee details
+    b) Given any name(or id) list all the subordinates of the given employee.
+    c) Given a name search with prefix search property.
+    45 minutes of time was given and running code was asked. The interviewer first asked the approach and then after coding, he reviewed the code thoroughly.
