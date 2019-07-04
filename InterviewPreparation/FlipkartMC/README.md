@@ -185,3 +185,11 @@
     Fail: abdc, dabfc
 
     Write a code for it.
+    
+**13. Design snake and ladder game**
+
+    Design snake and ladder game. Questions were then asked on now it can be extended. 
+    
+**14. Tic Tac Toe Game**
+    
+    Design and build tic tac toe game. The code should be up and running. It should be scalable to multi-users and nXn grid.    
