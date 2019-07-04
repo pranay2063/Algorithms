@@ -207,3 +207,21 @@
         A lot of new use cases to handle. 
         Explain your design. 
         How will you deal with new changes in problem statements.
+        
+**16. N player game of cards**
+
+    I was given a problem statement and I had to write a fully functional working code at my laptop. 
+    I was told that the focus is not on logic but on the way I code and the design of my solution. 
+    
+    The problem statement was something like : 
+    There is a n player game of cards. 
+    The deck of card is not fair, i.e. any card can be there any number of times. 
+    A card has a number and a color. Each player gets k card each (n and k can be harcoded in the solution). 
+    The computer starts the game by throwing a card from the deck of cards. Assume the card is 4 of Green. 
+    Then the other player has to throw either a 4 of any color or Green of any number. 
+    If the player does not have any such card, then it can say pass. 
+    The player who finishes all his card wins. 
+    The logic of selecting the card by the user can be hardcoded (Eg, If you use a list data structure for storing the cards for a           player, then you can say that the player always throws the first card from the list). 
+    The logic was required only to start and conclude the game.
+
+    I was given close to 1 hour to finish this. First we had a discussion about the design of my solution and then I was asked to code.     After I was done coding, she checked my code, asked a few questions about how will I add some new features in the game.
