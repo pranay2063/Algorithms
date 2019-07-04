@@ -89,3 +89,79 @@
     undo() – undo last command
     redo() – redo last command
     They expected the textpad to be in memory(not as file). They also  expected to handle error gracefully and the program to be menu driven.
+
+**8. Best Selling Price**
+
+    You need to make a program in which
+
+    1.) You can add a product -> addProduct(“p1”)
+    2.) A user can purchase a product -> purchase(“u1″,”p1”)
+    3.) A user can return a product -> returnProduct(“u1″,”p1”)
+    4.) A user can be blacklisted and all of his purchases will be marked null -> blackListUser(“u1”)
+    5.) Display the best selling product -> bestSelling()
+    Best selling product will be the one which have been bought by most number of unique users.
+
+    Bonus: Display the best selling products for each category.
+
+    Evaluation: After you are done with your code, two Flipkart SDEs will run test cases on your code and evaluate it. They will also ask some questions around your code.
+    
+**9. Binary Tree Sequence**
+
+    Given a binary tree as a sequence of (parent, child) tuples: (A B)(A C)(B G)(C H)(E F)(B D)(C E) Write a program to find following errors in the tree:
+    E1: More than 2 children
+    E2: Duplicate Tuples
+    E3: Cycle present
+    E4: Multiple roots
+    E5: Multiple parents
+    Input is a expression containing parent child relations. output is Error codes or success.
+
+    Sample test cases : 
+    Input: (A B)(A C)(B G)(C H)(E F)(B D)(C E) Output: Success
+    Input: (A B)(A C)(A D) Output: E1
+    Input: (A B)(A B) Output: E2
+    Input: (A B)(B C)(C A) Output: E3
+    Input: (A B)(C D) Output: E4
+    Input: (A B)(B C)(A C) Output: E5
+    
+**10. JSON Constructor**
+
+    You are given some equations which may contain > or = on different-different operand. For example there are valid input and invalid (a=5, b<a=50)
+
+     String e1 = "a>b=1";
+     String e2 = "a>b=2";
+     String e3 = "a>c>e=3";
+     String e4 = "a>c>f=4";
+     String e5 = "b>a=5";
+     String e6 = "a>b>c=5";
+     String e7 = "b=7";
+     String e8 = "a>b>c>d=99";
+     String e9 = "a>b=99";
+
+    You need to create JSON string from it. 
+    {
+     ‘a’: {
+     ‘b’: [1,2,99],
+     ‘c’: {
+     ‘e’:3,
+     ‘f’:4
+     }
+           },
+
+    ‘b’: {
+     ‘a’ : 5
+
+          }
+
+
+    }
+    
+    Highlighted one is invalid because they come they ask for overwrite the data (a>b>c = 5; C has e and f so we can overwrite.
+
+    Input: You are given those string in string array
+    Output: Construct JSON, Print it
+    If you print in same as above (nice manner) +point
+
+    I solved this problem using Trie
+    One can see my implementation at here: https://github.com/nitsgupta/practice/tree/master/JAVA/JsonBuilder
+    
+  
