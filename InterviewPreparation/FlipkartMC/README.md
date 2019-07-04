@@ -343,10 +343,70 @@
     Negative input should be handled. Result of -2+202 = 200.
     1000000000 – 1 = 999999999 i.e. resulting answer can be of different length.
     
- **25. Employee database**
+**25. Employee database**
  
     Create an employee database structure in which Employee has id, name, manager. Three functionalities required were
     a) Given any id return all the employee details
     b) Given any name(or id) list all the subordinates of the given employee.
     c) Given a name search with prefix search property.
     45 minutes of time was given and running code was asked. The interviewer first asked the approach and then after coding, he reviewed the code thoroughly.
+
+**26. Organizational hierarchy**
+
+    Need to write a fully functionally and working code for a problem statement. 
+    Problem is to write the code for maintaining a directory for any organization where the employee will have id, name, post and manager as an attribute. 
+    Basically, two features need to be implemented: 
+    (a) Should be able to do searching on the basis of name, prefix search for the name should also be supported 
+    (b) For any employee, we can get the list of all the subordinates which comes under him/her, like for CEO all the employee’s list should get displayed
+    
+    No database is needed, memory storage was asked to use for this
+    Code should be extendable so that new attributes for the employee can be added
+    Approach for maintaining the structure and optimality in searching for required.
+    
+**27. Parse Tree**
+
+    Write a program which should create a parse tree, find invalid query and do some optimizations.
+    Input: fist line contains the list of columns. There will be subsequent lines which will contain the query as follows.
+    
+    EMP_ID, EMP_NAME, EMP_DEPT, EMP_AGE
+    
+    SELECT EMP_ID,EMP_NAME where EMP_ID>5 AND EMP_NAME=’robert’
+    
+    SELECT EMP_AGE WHERE (EMP_NAME=’robert’ AND EMP_ID=5) AND 
+                        (EMP_ID=32) OR (EMP_ID= 32) 
+
+**28. XML parser**
+
+    I was asked to write code to parse an XML and do the following options by not hardcoding any value.
+    Validate the XML.
+    Given a level number, print all values of tags in the sub-levelsel.
+    Search a tag name for a given value
+    For value of any tag given, search a value of tag at any sub levels.
+    
+    First there was discussion as to how to go about the problem and the algorithm. Then 1 hour for coding the solution. Finally the code was evaluated and some extensions to the solutions were discussed.
+    
+**29. Regex parser (same as 12)**
+
+    Given a string regex and anothe ther string pat find whether the pattern is acceptable against given regex string.
+    Regex string contains following characters and special characters:
+    1. Normal alphabets – a to z and A to Z
+    2. ‘$’ – all string should end with all characters preceding $
+    Example:
+    Regex :abc$ ,
+    Pattern: abcd(Not acceptable) , abc(acceptable), ab(Not acceptable), dhfusdhabc(acceptable) etc..
+    3. ‘^’ – all string should start with all characters exceeding ^
+    Example: Regex : ^abc
+    Pattern: abcd(acceptable) , abc(acceptable), ab(Not acceptable), dhfusdhabc(NOT acceptable) etc..
+    Regex: ^ then only pattern acceptable is null.
+    4. ‘.’ – any character can be mapped to dot except null
+    Example 1: Regex : .abc
+    Pattern: Zabc(acceptable) , abc(NOT acceptable), ab(Not acceptable), habc(acceptable) etc..
+    Example 2: Regex :a.bc
+    Pattern: abc(NOT acceptable) , aXbc(acceptable), ab(Not acceptable), habc(NOT acceptable) etc..
+    5. ‘*’-the character just preceding * can be repeated n time where (n>=0)
+    Example 1: Regex :abc*de
+    Pattern: abccccccccccde (acceptable), abcde(acceptable), abcccd(not acceptable)
+    
+    Code should follow OOPs principle such as modularity (make each function for each special character), encapsulation etc.
+    Further discussion on improving the code and how would other person can see the code and add other functions to it.
+    
