@@ -46,7 +46,7 @@
 
     The initial data was to be hardcoded and the solution was to be designed efficient all edge cases handled and optimised.
     
-**5. Multi -level cache system design with different storage in each level**
+**5. Multi-level cache system design with different storage in each level**
 
     Candidates were divided into groups and each group was given different problems to solve. Full working code was required with any candidate’s preferred language. It was 90 min round.
 
@@ -61,3 +61,16 @@
     b. Average read time and average write time.
 
     There was a long discussion on the code written and several test cases were given to check all boundary conditions.
+    
+**6. Text line editor**
+
+    Implement a Text Line Editor which supports the following operations:
+
+    Insert a line at a given line number
+    Delete the specific set of lines
+    Copy specific set of lines
+    Paste the copied lines at given index
+    Print the entire content
+    Bonus-
+        Undo command
+        Redo command
