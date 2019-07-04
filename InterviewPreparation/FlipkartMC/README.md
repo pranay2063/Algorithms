@@ -159,9 +159,9 @@
 
     Input: You are given those string in string array
     Output: Construct JSON, Print it
-    If you print in same as above (nice manner) +point
+    If you print in same manner as above (nice manner) +point
 
-    I solved this problem using Trie
-    One can see my implementation at here: https://github.com/nitsgupta/practice/tree/master/JAVA/JsonBuilder
+    I solved this problem using Trie. 
+    One can see interviewee's implementation here: https://github.com/nitsgupta/practice/tree/master/JAVA/JsonBuilder
     
   
