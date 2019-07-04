@@ -193,3 +193,14 @@
 **14. Tic Tac Toe Game**
     
     Design and build tic tac toe game. The code should be up and running. It should be scalable to multi-users and nXn grid.    
+    
+**15. Two player multiple ships game**
+
+    1. Machine Coding:
+        Two players, two field; and have multiple ships located in their fields. They are guessing each others ship position and        hitting. 
+        Tell who wins first. Design maintainable code which can incorporate future change.
+
+    2. Discussion on Design of previous code. 
+        A lot of new use cases to handle. 
+        Explain your design. 
+        How will you deal with new changes in problem statements.
