@@ -51,9 +51,11 @@
 **Graph algorithms**
 1. BFS/DFS
 2. Topologcal Sort
+
     2.1 *Dependency handling*
     2.2 *ALl possible topological sorts*
     2.3 *Sorted dictionary of alien language - https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/* 
+    
 3. Strongly Connected Components (SCCs)
 4. Applications of BFS/DFS - 2, 3, Bipartite check and 2 coloring problem
 5. Cycle detection in directed and undirected graphs
