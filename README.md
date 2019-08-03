@@ -42,6 +42,9 @@
 
    *https://www.geeksforgeeks.org/rand-and-srand-in-ccpp/*
 
+**Interview Resources**
+1. *https://www.quora.com/What-is-a-list-of-data-structures-that-a-competitive-programmer-must-know/answer/Sameer-Gulati-3?ch=10&share=dcc3b398&srid=oeMh*
+
 **Amazon Interview Questions**
 1. *https://www.geeksforgeeks.org/amazon-topics-interview-preparation/*
 
