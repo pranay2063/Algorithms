@@ -1,5 +1,5 @@
 
-**This folder contains all the interview questions** 
+**This folder contains all the interview questions.** 
 
 **Amazon interview tips** - 
     *https://tinyurl.com/amazoninterviewpreptips*
