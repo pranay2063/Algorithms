@@ -68,7 +68,3 @@ int main(){
 	return 0;
 
 }
-
-//normal path
-//2 nodes
-//sum X
