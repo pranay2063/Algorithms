@@ -18,6 +18,8 @@ bool path(node *root, vector<int> &p, int x){
 	
 	//x is the node being for which path is being determined
 	//p is the path vector that is updated in each recursion call
+	//https://stackoverflow.com/questions/270408/is-it-better-in-c-to-pass-by-value-or-pass-by-constant-reference
+	
 	if(root == NULL) 
 		return false; 
 
