@@ -36,7 +36,7 @@ node *LCA(node *root, int x, int y){
 	if(rchild != NULL)
 		return rchild;
 
-	return NULL; 
+	return NULL;  
 
 }
 
