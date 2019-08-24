@@ -33,7 +33,7 @@ node *reverse(node *head){
 		current = temp;
 	}
 	
-	return prev;
+	return prev; 
 }
 
 node *addone(node *head){
