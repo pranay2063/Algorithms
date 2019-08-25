@@ -12,23 +12,17 @@ class Median{
             int current = 0;
             if(i < a.length && j < b.length){
                 if(a[i] <= b[j]){
-                    ++k;
-                    ++i;
+                    ++k; ++i;
                 }
                 else {
-                    ++k;
-                    current = 1;
-                    ++j;
+                    ++k; current = 1; ++j;
                 }
             }
             else if(i < a.length){
-                ++k;
-                ++i;
+                ++k; ++i;
             }
             else if(j < b.length){
-                ++k;
-                current = 1;
-                ++j;
+                ++k; current = 1; ++j;
             }
             //System.out.println(i+" "+j);
             if(sz % 2 == 0){
