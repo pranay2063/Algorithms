@@ -10,6 +10,7 @@ class MedianSameSize {
     }
 
     public double MedianSameSizeSortedArrays(int[] a, int[] b){
+        //Divide and Conquer
         int len = a.length;
         if(len <= 0) return Integer.MIN_VALUE;
         if(len == 1) return (double)(a[0]+b[0])/2;
@@ -19,12 +20,14 @@ class MedianSameSize {
         double m2 = medianFind(b);
         //System.out.println(m1+" "+m2);
         if(m1 < m2) {
+            //median will be present in second half of a and first half of b
             if(len%2 == 0)
                 return MedianSameSizeSortedArrays(Arrays.copyOfRange(a,len/2, len), Arrays.copyOfRange(b, 0, len/2));
             else
                 return MedianSameSizeSortedArrays(Arrays.copyOfRange(a, len/2, len), Arrays.copyOfRange(b, 0, len/2+1));
         }
         else {
+            //median will be present in first half of a and second half of b
             if(len%2 == 0)
                 return MedianSameSizeSortedArrays(Arrays.copyOfRange(a, 0, len/2), Arrays.copyOfRange(b, len/2, len));
             else
