@@ -25,7 +25,7 @@
    *https://www.geeksforgeeks.org/kth-smallest-element-in-bst-using-o1-extra-space/*
    *https://www.geeksforgeeks.org/find-median-bst-time-o1-space/*
 
-2. Check if a binary tree is BST - *https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/*
+2. [Check if a binary tree is BST](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/)
 3. Inorder successor of a BST - 
 
    [GeeksForGeeks](https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/)
