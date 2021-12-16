@@ -11,9 +11,7 @@
    *http://www.geeksforgeeks.org/median-of-stream-of-running-integers-using-stl/*
 
 **Heapsort**
-1. Time complexity 
-
-   *https://stackoverflow.com/questions/9755721/how-can-building-a-heap-be-on-time-complexity*
+1. [Time complexity](https://stackoverflow.com/questions/9755721/how-can-building-a-heap-be-on-time-complexity)
 
 **Trees**
 1. Morris Traversal
