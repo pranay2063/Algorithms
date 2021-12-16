@@ -18,8 +18,8 @@
 **Trees**
 1. Morris Traversal
 
-   *http://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/*
-   *https://stackoverflow.com/questions/5502916/explain-morris-inorder-tree-traversal-without-using-stacks-or-recursion*
+   [GeeksForGeeks](http://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/)
+   [Stackoverflow](https://stackoverflow.com/questions/5502916/explain-morris-inorder-tree-traversal-without-using-stacks-or-recursion)
    
    Applications - 
    *https://www.geeksforgeeks.org/kth-smallest-element-in-bst-using-o1-extra-space/*
