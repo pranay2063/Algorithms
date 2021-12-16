@@ -28,8 +28,8 @@
 2. Check if a binary tree is BST - *https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/*
 3. Inorder successor of a BST - 
 
-   *https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/*
-   *https://stackoverflow.com/questions/5471731/in-order-successor-in-binary-search-tree*
+   [GeeksForGeeks](https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/)
+   [Stackoverflow](https://stackoverflow.com/questions/5471731/in-order-successor-in-binary-search-tree)
    [Leetcode](https://leetcode.com/problems/inorder-successor-in-bst/)
    
 **Ad hoc**
