@@ -30,6 +30,7 @@
 
    *https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/*
    *https://stackoverflow.com/questions/5471731/in-order-successor-in-binary-search-tree*
+   [Leetcode](https://leetcode.com/problems/inorder-successor-in-bst/)
    
 **Ad hoc**
 1. Minimum Moves to Equal Array Elements
