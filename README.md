@@ -67,4 +67,8 @@
 7. Minimum Spanning Tree - Prim's algorithm, Kruskal's algorithm
 8. Shortest path - Dijkstra's algorithm
 
+**Dynamic Programming**
+- Optimal Substructure
+- Overlapping subproblems
+
 
