@@ -9,9 +9,6 @@
    *https://stackoverflow.com/questions/10657503/find-running-median-from-a-stream-of-integers*
    *http://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/*                                                     
    *http://www.geeksforgeeks.org/median-of-stream-of-running-integers-using-stl/*
-
-**Heapsort**
-1. [Time complexity](https://stackoverflow.com/questions/9755721/how-can-building-a-heap-be-on-time-complexity)
    
 **Ad hoc**
 1. Minimum Moves to Equal Array Elements
@@ -23,9 +20,6 @@
 1. Random number generation in C++
 
    *https://www.geeksforgeeks.org/rand-and-srand-in-ccpp/*
-
-**Interview Resources**
-1. *https://www.quora.com/What-is-a-list-of-data-structures-that-a-competitive-programmer-must-know/answer/Sameer-Gulati-3?ch=10&share=dcc3b398&srid=oeMh*
 
 
 **Design**
