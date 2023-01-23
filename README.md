@@ -12,23 +12,6 @@
 
 **Heapsort**
 1. [Time complexity](https://stackoverflow.com/questions/9755721/how-can-building-a-heap-be-on-time-complexity)
-
-**Trees**
-1. Morris Traversal
-
-   [GeeksForGeeks](http://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/)
-   [Stackoverflow](https://stackoverflow.com/questions/5502916/explain-morris-inorder-tree-traversal-without-using-stacks-or-recursion)
-   
-   Applications - 
-   *https://www.geeksforgeeks.org/kth-smallest-element-in-bst-using-o1-extra-space/*
-   *https://www.geeksforgeeks.org/find-median-bst-time-o1-space/*
-
-2. [Check if a binary tree is BST](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/)
-3. Inorder successor of a BST - 
-
-   [GeeksForGeeks](https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/)
-   [Stackoverflow](https://stackoverflow.com/questions/5471731/in-order-successor-in-binary-search-tree)
-   [Leetcode](https://leetcode.com/problems/inorder-successor-in-bst/)
    
 **Ad hoc**
 1. Minimum Moves to Equal Array Elements
