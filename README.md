@@ -27,14 +27,11 @@
 **Interview Resources**
 1. *https://www.quora.com/What-is-a-list-of-data-structures-that-a-competitive-programmer-must-know/answer/Sameer-Gulati-3?ch=10&share=dcc3b398&srid=oeMh*
 
-**Amazon Interview Questions**
-1. *https://www.geeksforgeeks.org/amazon-topics-interview-preparation/*
 
 **Design**
 1. LRU - *https://www.geeksforgeeks.org/lru-cache-implementation/*
 
-**Dynamic Programming**
-- Optimal Substructure
-- Overlapping subproblems
+
+Top interview questions - https://leetcode.com/problem-list/top-interview-questions/?sorting=W3sic29ydE9yZGVyIjoiQVNDRU5ESU5HIiwib3JkZXJCeSI6IkRJRkZJQ1VMVFkifV0%3D 
 
 
