@@ -4,6 +4,4 @@
 
 *[Top interview questions](https://leetcode.com/problem-list/top-interview-questions/?sorting=W3sic29ydE9yZGVyIjoiQVNDRU5ESU5HIiwib3JkZXJCeSI6IkRJRkZJQ1VMVFkifV0%3D)*
 
-*[Median of running stream of integers](https://stackoverflow.com/questions/10657503/find-running-median-from-a-stream-of-integers)*
-
 
